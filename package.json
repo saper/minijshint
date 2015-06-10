@@ -1,0 +1,27 @@
+{
+  "name": "minijshint",
+  "version": "0.0.1",
+  "description": "Testing for npm bug",
+  "license": "MIT",
+  "homepage": "https://github.com/saper/minijshint",
+  "readme": "Just testing for the suspected npm bug",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saper/minijshint"
+  },
+  "author": {
+    "name": "Marcin Cieślak",
+    "email": "saper@sape.info",
+    "url": "http://saper.github.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "jshint": "^2.6.3"
+  }
+}
