@@ -12,5 +12,7 @@ install:
   - ps: Install-Product node $env:nodejs_version
   - node --version
   - npm --version
+  - cmd: set
   - ps: Get-ChildItem Env:
+  - ps: Write-Host 'This is PowerShell'
   - ps: npm install --msvs_version=2013
