@@ -12,4 +12,5 @@ install:
   - ps: Install-Product node $env:nodejs_version
   - node --version
   - npm --version
+  - ps: Get-ChildItem Env:
   - ps: npm install --msvs_version=2013
