@@ -14,4 +14,5 @@ install:
   - npm --version
   - cmd: set
   - ps: Write-Host 'This is PowerShell'
+  - ps: Write-Host $env:comspec
   - ps: npm install --msvs_version=2013
